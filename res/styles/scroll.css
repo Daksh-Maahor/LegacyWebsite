@@ -1,8 +1,9 @@
 section {
     display: grid;
-    place-items: center;
+    place-content: center;
     align-content: center;
-    min-height: 50vh;
+    text-align: center;
+    min-height: 25vh;
     font-family: "Montserrat";
     font-size: 40px;
 }

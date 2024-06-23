@@ -1,5 +1,7 @@
 body{
     display: contents;
+    transition: all 3s;
+    opacity: 0;
 }
 #intro {
     background-color: rgba(58, 58, 58, 0.9);
@@ -40,12 +42,12 @@ body{
 
 .intro_logo_left_show {
     transform: translateX(0%);
-    transition: all 8s;
+    transition: all 5s;
 }
 
 .intro_logo_right_show {
     transform: translateX(0%);
-    transition: all 8s;
+    transition: all 5s;
 }
 
 @media(prefers-reduced-motion) {

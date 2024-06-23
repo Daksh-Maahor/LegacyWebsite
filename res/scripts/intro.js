@@ -5,6 +5,7 @@ const leftLogo = intro.querySelector(".intro_logo_left_show");
 const rightLogo = intro.querySelector(".intro_logo_right_show");
 
 function max_opacity() {
+    document.getElementsByTagName('body')[0].style.opacity = '1';
     display.style.opacity = '1';
 }
 
@@ -21,9 +22,9 @@ function startIntro() {
     leftLogo.classList.add('intro_logo_left_hide');
     rightLogo.classList.add('intro_logo_right_hide')
 
-    setTimeout(display_items, 8000);
+    setTimeout(display_items, 5000);
 }
 
 leftLogo.classList.add('intro_logo_left_show');
 rightLogo.classList.add('intro_logo_right_show');
-setTimeout(startIntro, 5000);
+setTimeout(startIntro, 2000);
