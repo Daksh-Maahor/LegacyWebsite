@@ -1,0 +1,62 @@
+.IMG {
+    width: 300px;
+    height: fit-content;
+    padding: 30px 30px;
+}
+
+section {
+    display: grid;
+    place-content: center;
+    align-content: center;
+    text-align: center;
+    min-height: 25vh;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+
+section.photo_section_horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 50vh;
+}
+
+section.photo_section_vertical {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 50vh;
+    /* align-content: space-between; */
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+section.other_images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+section.hidden {
+    opacity: 0.1;
+    filter: blur(10px);
+    transition: all 1.25s;
+}
+
+@media(prefers-reduced-motion) {
+    section.hidden {
+        transition: none;
+    }
+}
+
+section.shown {
+    opacity: 1;
+    filter: blur(0px);
+}

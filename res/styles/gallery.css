@@ -1,6 +1,6 @@
 #Archive_IMG {
-    width: 500px;
-    padding: 10px 10px;
+    width: 450px;
+    padding: 20px 20px;
 }
 
 section {
@@ -9,5 +9,5 @@ section {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 10vh;
 }

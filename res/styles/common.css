@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css2?family=Tourney");
+
 html {
     scroll-behavior: smooth;
 }
@@ -73,6 +77,15 @@ body {
     font-family: "Raleway";
 }
 
+/**
+#socials {
+    background-image: url('../images/logos/overlay_social.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+**/
+
 .navbar a {
     text-decoration: none;
     color: #f9f9f9;
@@ -105,12 +118,20 @@ a:link, a:visited {
     justify-content: center;
     font-size: 80px;
     font-family: 'Tourney';
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin-bottom: inherit;
 }
 
 .sub-heading {
     display: grid;
     align-content: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Montserrat";
+    margin-bottom: 50px;
+    white-space-collapse: preserve;
+    transition: all 2s;
 }
