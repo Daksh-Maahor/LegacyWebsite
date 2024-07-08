@@ -25,9 +25,9 @@ function startIntro() {
     rightLogo.classList.add('intro_logo_right_hide')
     subhead.style.opacity = '0';
 
-    setTimeout(display_items, 5000);
+    setTimeout(display_items, 3000);
 }
 
 leftLogo.classList.add('intro_logo_left_show');
 rightLogo.classList.add('intro_logo_right_show');
-setTimeout(startIntro, 2000);
+setTimeout(startIntro, 1000);
