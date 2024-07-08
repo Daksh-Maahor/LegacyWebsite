@@ -11,7 +11,7 @@ section {
     text-align: center;
     min-height: 25vh;
     font-family: "Montserrat";
-    font-size: 40px;
+    font-size: 250%;
 }
 
 section.photo_section_horizontal {
@@ -20,7 +20,7 @@ section.photo_section_horizontal {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: space-around;
-    min-height: 50vh;
+    min-height: 75vh;
 }
 
 section.photo_section_vertical {
@@ -50,6 +50,27 @@ section.hidden {
     transition: all 1.25s;
 }
 
+section.event_heads {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    section.other_images {
+        section {
+            margin-right: 4em;
+            margin-left: 4em;
+            margin-bottom: 4em;
+        }
+    }
+}
+
+
+h3 {
+    font-size: 100%;
+}
+
 @media(prefers-reduced-motion) {
     section.hidden {
         transition: none;
@@ -59,4 +80,10 @@ section.hidden {
 section.shown {
     opacity: 1;
     filter: blur(0px);
+}
+
+@media screen and (min-width:0px) and (max-width:100px) {
+    p.desc {
+        font-size: 10%;
+    }
 }

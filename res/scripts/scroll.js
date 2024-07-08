@@ -2,10 +2,10 @@ const observer = new IntersectionObserver( (entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
-            console.log('intersection');
+            //console.log('intersection');
         } else {
             entry.target.classList.remove('show');
-            console.log('intersection gone');
+            //console.log('intersection gone');
         }
     })
 });

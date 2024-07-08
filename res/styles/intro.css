@@ -1,6 +1,6 @@
 body{
     display: contents;
-    transition: all 3s;
+    transition: all 2s;
     opacity: 0;
 }
 #intro {
@@ -9,8 +9,6 @@ body{
     place-items: center;
     align-content: center;
     min-height: 50vh;
-    font-family: "Montserrat";
-    font-size: 40px;
     flex-flow: row;
     justify-content: center;
     align-items: center;
@@ -42,12 +40,12 @@ body{
 
 .intro_logo_left_show {
     transform: translateX(0%);
-    transition: all 5s;
+    transition: all 3s;
 }
 
 .intro_logo_right_show {
     transform: translateX(0%);
-    transition: all 5s;
+    transition: all 3s;
 }
 
 @media(prefers-reduced-motion) {
